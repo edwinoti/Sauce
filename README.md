@@ -18,21 +18,22 @@ Steps on how to run this automation.
   - pip install -r requirements.txt
   
 3. Run the automation
- - For the API tests use below command:
+ - For the API tests use command:
     pytest -m api
     
- - For the UI tests use below command
+ - For the UI tests use command
      pytest -m "not api"  
      
- - For both API and UI use below command to run
+ - For both API and UI use command to run
      pytest
      
-4. View Test Report use below commands
+4. View Test Report use commands
    open tests/reports/report.html         # Mac
+   
    start tests/reports\report.html        # Windows   
    
    
-5. To view failure screenshots go to directory
+6. To view failure screenshots go to directory
     tests/screenshots
     
 
